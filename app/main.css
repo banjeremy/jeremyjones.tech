@@ -71,7 +71,9 @@ h2 {
   padding: 10px;
 }
 
-#links li a:hover span {
+#links li a:hover span,
+#links li a:active span,
+#links li a:focus span {
   color: #FF6434;
 }
 
