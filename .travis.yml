@@ -3,15 +3,12 @@ node_js:
   - "node"
 
 install:
-  - npm install
 
 script:
-  - npm run clean
-  - npm run build
 
 deploy:
   provider: s3
   skip_cleanup: true
   bucket: jeremyjones.tech
   region: us-east-1
-  local_dir: dist
+  local_dir: app

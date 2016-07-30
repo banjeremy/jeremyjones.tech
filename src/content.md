@@ -1,5 +1,0 @@
-# jeremyjones.tech
-
-```
-stay tuned.
-```
