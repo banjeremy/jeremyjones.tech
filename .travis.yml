@@ -3,8 +3,10 @@ node_js:
   - "node"
 
 install:
+  - echo "nothing to install"
 
 script:
+  - echo "nothing to do"
 
 deploy:
   provider: s3
