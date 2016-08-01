@@ -72,7 +72,6 @@ h2 {
 }
 
 #links li a:hover span,
-#links li a:active span,
 #links li a:focus span {
   color: #FF6434;
 }
