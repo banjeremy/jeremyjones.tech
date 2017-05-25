@@ -8,11 +8,13 @@
   var windowHalfY = window.innerHeight / 2;
 
   var colors = [
-    0xFF6434,
-    0xD63C1D,
-    0x008173,
-    0x00CFBE,
-    0xE6E6E6
+    0xE6E6E6,
+    0xD3D3D3,
+    0xBFBFBF,
+    0x989898,
+    0x858585,
+    0x5F5F5F,
+    0x383838
   ];
 
   function init() {
@@ -30,7 +32,7 @@
     group = new THREE.Group();
     scene.add(group);
 
-    for (var i = 0; i < 1000; i++) {
+    for (var i = 0; i < 2500; i++) {
 
       var material = new THREE.SpriteCanvasMaterial({
         //color: Math.random() * 0x808008 + 0x808080,
@@ -42,7 +44,7 @@
       particle.position.x = Math.random() * 2300 - 1000;
       particle.position.y = Math.random() * 2400 - 1000;
       particle.position.z = Math.random() * 2500 - 1000;
-      particle.scale.x = particle.scale.y = Math.random() + 7;
+      particle.scale.x = particle.scale.y = Math.random() * 6;
       group.add(particle);
     }
 
